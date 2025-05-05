@@ -1,0 +1,120 @@
+Recon Report for google.com
+
+--- Domain ---
+google.com
+
+--- Subdomains ---
+Error during subdomain enumeration: HTTPSConnectionPool(host='rapiddns.io', port=443): Read timed out. (read timeout=10)
+
+--- DNS Records ---
+A Records:
+142.250.189.238
+
+AAAA Records:
+2607:f8b0:4005:80f::200e
+
+MX Records:
+10 smtp.google.com.
+
+NS Records:
+ns1.google.com.
+ns4.google.com.
+ns2.google.com.
+ns3.google.com.
+
+TXT Records:
+"v=spf1 include:_spf.google.com ~all"
+"globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8="
+"google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ"
+"google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o"
+"onetrust-domain-verification=de01ed21f2fa4d8781cbc3ffb89cf4ef"
+"facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95"
+"apple-domain-verification=30afIBcvSuDV2PLX"
+"cisco-ci-domain-verification=479146de172eb01ddee38b1a455ab9e8bb51542ddd7f1fa298557dfa7b22d963"
+"MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB"
+"google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0"
+"docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e"
+"docusign=1b0a6754-49b1-4db5-8540-d2c12664b289"
+
+CNAME Records:
+None found.
+
+
+
+--- WHOIS ---
+Domain Name: GOOGLE.COM
+Registrar: MarkMonitor, Inc.
+Creation Date: [datetime.datetime(1997, 9, 15, 4, 0), datetime.datetime(1997, 9, 15, 7, 0, tzinfo=datetime.timezone.utc)]
+Expiration Date: [datetime.datetime(2028, 9, 14, 4, 0), datetime.datetime(2028, 9, 13, 7, 0, tzinfo=datetime.timezone.utc)]
+Name Servers: ['NS1.GOOGLE.COM', 'NS2.GOOGLE.COM', 'NS3.GOOGLE.COM', 'NS4.GOOGLE.COM']
+Emails: ['abusecomplaints@markmonitor.com', 'whoisrequest@markmonitor.com']
+
+
+--- Open Ports (Shodan) ---
+Shodan API Error: Access denied (403 Forbidden)
+
+--- Emails & Social ---
+
+
+--- SSL Cert Info ---
+*.google.com
+*.mail.google.com
+onex.wifi.google.com
+accounts.google.com
+hosted-id.google.com
+adwords.google.com
+*.vp.video.l.google.com
+wifi.google.com
+jmt0.google.com
+upload.video.google.com
+eggroll.ext.google.com
+sandbox.google.com
+cod.ext.google.com
+glass.ext.google.com
+www.google.com
+checkout.google.com
+mail.google.com
+services.google.com
+audioads.google.com
+glass-eur.ext.google.com
+m.google.com
+answers.google.com
+gmail.google.com
+*.chrome.google.com
+mtalk.google.com
+mx.google.com
+ecc-test.sandbox.google.com
+*.googlecode.com
+login.corp.google.com
+google.com
+meeting.ext.google.com
+misc.google.com
+*.ext.google.com
+freezone.google.com
+soaproxyprod01.ext.google.com
+uberproxy.corp.google.com
+hot-da.ext.google.com
+soaproxytest01.ext.google.com
+fra-da.ext.google.com
+cag.ext.google.com
+twd-da.ext.google.com
+www.google.comᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚᅚ.phreedom.org
+spdy-proxy.ext.google.com
+apps-secure-data-connector.google.com
+mtv-da.ext.google.com
+hyd-da.ext.google.com
+freezone.m.google.com
+mtv-da-1.ad.corp.google.com
+cert-test.sandbox.google.com
+*.c.docs.google.com
+talk.google.com
+twdsalesgsa.twd.corp.google.com
+ads-compare.eem.corp.google.com
+misc-sni.google.com
+m.modspdy.com
+uberproxy-nocert.corp.google.com
+uberproxy-san.corp.google.com
+demo.modspdy.com
+www.modspdy.com
+www.instantcab.com
+

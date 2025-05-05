@@ -1,0 +1,6 @@
+# Ignore API keys and system files
+config/keys.json
+__pycache__/
+*.pyc
+.env
+theHarvester/
