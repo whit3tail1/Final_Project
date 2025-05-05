@@ -48,11 +48,13 @@ Install its requirements:
 pip install -r theHarvester/requirements/base.txt
 The tool will automatically call theHarvester via subprocess.
 
+
 💻 How to Run
 python recon_tool.py example.com
 Use domain names like google.com, microsoft.com for full recon
 
 IP addresses like 8.8.8.8 trigger Shodan scan only (WHOIS is skipped)
+
 
 📁 Output
 All results are stored in the reports/ directory. Files are named using a timestamp format.
@@ -70,11 +72,13 @@ The contents of a TXT report
 
 /reports/ folder contents with timestamps
 
+
 🙋 Author
 Gilberto Cruz
 National University
 Course: CYB333 – Security Automation
 May 2025
+
 
 📜 License
 For academic and ethical use only.
