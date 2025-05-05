@@ -1,18 +1,27 @@
-# Automated Reconnaissance Toolkit
+# 🔎 Automated Reconnaissance Toolkit
 
-## 🔍 Project Overview
-This toolkit automates OSINT and reconnaissance tasks for cybersecurity assessments. It gathers DNS, WHOIS, SSL, subdomain, port scan, and email/social intel using Python modules.
+## 📌 Overview
+This project is a modular Python-based reconnaissance toolkit designed to automate OSINT data collection. It supports multiple recon functions such as DNS lookup, WHOIS queries, subdomain enumeration, Shodan scanning, SSL cert scraping, and social/email discovery via theHarvester.
 
-## 🛠 Features
-- DNS Record Lookup (A, MX, NS, etc.)
-- WHOIS Lookup
-- Shodan Port/Banner Scan (API)
-- SSL Certificate Lookup (crt.sh)
-- Subdomain Enumeration (rapiddns.io)
-- Email & Social Recon (theHarvester)
+It outputs structured reports in both `.txt` and `.json` formats for easy reference and integration.
 
-## 🚀 How to Run
+---
 
-1. Install requirements:
-   ```bash
-   pip install -r requirements.txt
+## 🚀 Features
+
+- ✅ DNS Record Lookup (A, MX, TXT, etc.)
+- ✅ WHOIS Information (for domains only)
+- ✅ Shodan Scan for IPs (requires API key)
+- ✅ SSL Certificate Lookup via crt.sh
+- ✅ Subdomain Enumeration via RapidDNS
+- ✅ Email & Social Discovery via theHarvester
+- ✅ Exports TXT and JSON reports to `/reports/` folder
+
+---
+
+## 🛠 Requirements
+
+- Python 3.11+
+- Install dependencies:
+  ```bash
+  pip install -r requirements.txt
